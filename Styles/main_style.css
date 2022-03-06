@@ -1,0 +1,84 @@
+/* Réglages de la disposition des éléments de la page */
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #544a62;
+}
+
+a{
+    text-decoration: unset;
+    font-weight: bold;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: #949494;
+}
+
+/* Header */
+#header{
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    height: 2em;
+    background-color: #363636;
+    font-weight: bold;
+    color: #ebebeb;
+    margin: -0.5% -0.5% 0;
+}
+#header img{
+    padding-left: 2em;
+    height: 2em;
+    width: 2em;
+}
+#header p{
+    position: relative;
+    bottom: .55em;
+    padding-left: .5em;
+}
+
+/* Content */
+#content{
+    margin: auto 30% auto 18%;
+    background-color: white;
+    border-style: solid;
+    border-left-width: 1em;
+    border-right-width: 1em;
+    border-bottom-width: 1em;
+    border-color: white;
+}
+/* Divisions contenues dans la balise contenu */
+#content div{
+    padding-left: 2em;
+}
+
+
+/* Footer */
+#footer{
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    background-color: #363636;
+    color: #ebebeb;
+    margin: 0% -0.5% -1%;
+}
+#footer a{
+    margin: auto auto auto   80%;
+    color: #ebebeb;
+}
+#footer p{
+    padding-left: 1em;
+}
+
+/* Icones */
+img.icon{
+    width: 3em;
+    height: auto;
+}
+
+a.icon_link{
+    position: relative;
+    bottom: 1.25em;
+}

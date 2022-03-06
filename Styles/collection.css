@@ -1,0 +1,17 @@
+@import "main_style.css";
+
+/* Albums */
+#album{
+    display: flex;
+    flex-direction: row
+}
+#album table{
+    padding-left: .5em;
+    margin: 1em 0 auto;
+    width: max-content;
+    height: max-content;
+}
+img.album_illustration{
+    width: 10em;
+    height: 10em;
+}
