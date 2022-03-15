@@ -1,5 +1,6 @@
 @import "main_style.css";
 
+/* Selecting the division whose id=content */
 #content{
-    margin: auto 30% auto 4%;
+    margin: auto 30% auto 4%; /* let the content margin to be positioned to the left (more than in the rest of the site) */
 }

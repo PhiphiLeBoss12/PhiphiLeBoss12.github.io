@@ -1,0 +1,12 @@
+@import "main_style.css";
+
+/* Selecting td elements */
+td{
+    padding-left: 1em; /* Letting a space of 1 character at left of these elements */
+}
+
+/* Selecting all the p children of #content */
+#content > p{
+    font-style: italic;
+    font-size: small;
+}

@@ -1,0 +1,12 @@
+@import "main_style.css";
+@import url('http://fonts.cdnfonts.com/css/opendyslexic'); /* Import the OpenDyslexic font to let dyslexic users navigate more easily */
+
+/* Make the whole page font OpenDyslexic */
+* {
+    font-family: 'OpenDyslexic', sans-serif;
+}
+
+/* selecting all texts and links in division #content */
+#content p, #content a{
+    font-size: large; /* Make the font size larger than usual to allow the user seeing the text more clearly */
+}

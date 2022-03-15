@@ -1,0 +1,6 @@
+@import "main_style_alt.css";
+
+/* Selecting all the ul in div whose id=content */
+#content ul{
+    font-size: large; /* Make the font size larger than usual to allow the user seeing the text more clearly */
+}
