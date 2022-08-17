@@ -3,14 +3,16 @@
     <head>
         <meta charset="utf-8"/>
         <title>Collection de musiques pour travailler</title>
-        <link rel="stylesheet" media="screen" type="text/css" title="index" href="Styles/main_style.css"/>
-        <link rel="alternate stylesheet" media="screen" type="text/css" title="index vision problems" href="Styles/main_style_alt.css"/>
+        <link rel="stylesheet" media="screen" type="text/css" title="index" href="Styles/index.css"/>
+        <link rel="alternate stylesheet" media="screen" type="text/css" title="index vision problems" href="Styles/index_alt.css"/>
         <link rel="shortcut icon" href="Images/collection_logo.ico"/>
+        <script type="application/javascript" src="Javascript/script_main.js"></script>
     </head>
-    <body>
+    <body onload="get_date();page_load()">
         <div id="header">
             <a href="index.xhtml"><img src="Images/collection_logo.png" alt="Collection" title="source : me"/></a>
             <p>Meilleures musiques pour travailler</p>
+            <button type="button" onclick="change_style()">Changer le style</button>
         </div>
 
         <div id="content">
@@ -41,7 +43,10 @@
 
             <h2>Me contacter</h2>
             <div id="contact">
-                <p>Des suggestions de musiques ? Des commentaires sur le site ? Contactez moi via <a href="mailto:phileas.afchain.boucher@etu.univ-poitiers.fr">mail</a></p>
+                <p>
+                    Des suggestions de musiques ? Des commentaires sur le site ? Contactez moi via
+                    <a id="mail" href="mailto:phileas.afchain.boucher@etu.univ-poitiers.fr" onclick="edit_mail()">mail</a>
+                </p>
             </div>
         </div>
 

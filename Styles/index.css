@@ -1,0 +1,13 @@
+@import "main_style.css";
+
+/* Selectionner tous les boutons descendants de #header */
+#header > button{
+    height: 2em;
+    width: 15em;
+    margin-left: auto;
+    margin-top: 1.5em;
+    border-color: #363636;
+    background-color: #363636;
+    color: white;
+    font-weight: bold;
+}

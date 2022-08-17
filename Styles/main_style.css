@@ -39,9 +39,10 @@ a:hover{
 }
 /* p elements in #header */
 #header p{
+    display: block;
     position: relative; /* p elements' position will be set according to others elements */
     bottom: .55em;
-    padding-left: .5em;
+    margin-left: .5em;
 }
 
 /* Selecting elements in the div id=content */
@@ -72,7 +73,10 @@ a:hover{
 }
 /* a elements in #footer */
 #footer a{
-    margin: auto auto auto 80%;
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    padding-right: 1em;
     color: #ebebeb;
 }
 /* p elements in #footer */

@@ -10,3 +10,7 @@
 #content p, #content a{
     font-size: large; /* Make the font size larger than usual to allow the user seeing the text more clearly */
 }
+
+#header p{
+    width: 25em;
+}
