@@ -1,8 +1,0 @@
-@import "main_style.css";
-
-/* First letter of every title (h1) */
-
-h1::first-letter{
-    font-size: 110%;
-    color: red;
-}

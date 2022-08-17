@@ -1,6 +1,0 @@
-@import "main_style.css";
-
-/* Selecting td elements */
-td, th{
-    padding-left: 2em; /* Letting a space of 2 characters at left of these elements */
-}
