@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musicforwork SYSTEM "musics.dtd">
+<musicforwork>
+    <informations>
+        <title> Paris, Texas </title>
+        <artist> Gotan Project </artist>
+        <duration> 6:45 </duration>
+        <release year="2006"/>
+        <history> Paris, Texas a été écrit et joué d'après un morceau écrit pour le film du meme nom. </history>
+    </informations>
+
+    <album title="lunatico" artist="Gotan Project" yearrelease="2006">
+        <illustration>
+            <img src="" alt=""/>
+        </illustration>
+    </album>
+
+    <description>
+        <p>
+            Ce titre de Gotan project est idéal pour travailler
+            grace à l'ambiance tranquille qui sort en l'écoutant.
+            L'absence de paroles y est aussi appréciable.
+        </p>
+    </description>
+</musicforwork>

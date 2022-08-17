@@ -1,0 +1,8 @@
+@import "index.css";
+@import "main_style_alt.css";
+
+/* Selectionner tous les boutons descendants de #header */
+#header > button{
+    font-size: 50%;
+    margin-top: 1em;
+}

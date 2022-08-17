@@ -1,0 +1,97 @@
+/* Selecting elements in body */
+body{
+    display: flex;
+    flex-direction: column; /* If not specified, all elements in body will be aligned vertically */
+    background-color: #544a62;
+}
+
+/* Selecting elements in a */
+a{
+    text-decoration: unset; /* take off the underline of links */
+    font-weight: bold;
+    color: black;
+}
+/* Already visited links */
+a:visited{
+    color: black;
+}
+/* Hovered links */
+a:hover{
+    color: #949494;
+}
+
+/* Selecting elements in the div id=header */
+#header{
+    display: flex;
+    flex-direction: row; /* Elements in the div will be aligned horizontally */
+    font-size: xx-large;
+    height: 2em; /* Size of the div : 2 characters of xx-large size high */
+    background-color: #363636;
+    font-weight: bold;
+    color: #ebebeb;
+    margin: -0.5% -0.5% 0; /* Allows the div to be at top top-right corner and not leaving a white space */
+}
+/* img elements in #header */
+#header img{
+    padding-left: 2em; /* all img elements will have a gap at left of 2 characters */
+    height: 2em;
+    width: 2em;
+}
+/* p elements in #header */
+#header p{
+    display: block;
+    position: relative; /* p elements' position will be set according to others elements */
+    bottom: .55em;
+    margin-left: .5em;
+}
+
+/* Selecting elements in the div id=content */
+#content{
+    margin: auto 30% auto 18%; /* a margin will be left at left and right of the division, letting it to be at the middle right position of the screen */
+    min-height: 49em;
+    background-color: white;
+    border-style: solid;
+    border-left-width: 1em;
+    border-right-width: 1em;
+    border-bottom-width: 1em;
+    border-color: white; /* white borders everywhere except at top of the division */
+}
+/* Div elements in #content */
+#content div{
+    padding-left: 2em;
+}
+
+
+/* Selecting elements in the div id=footer */
+#footer{
+    display: flex;
+    flex-direction: row; /* Elements in the div will be aligned horizontally */
+    height: 3em;
+    background-color: #363636;
+    color: #ebebeb;
+    margin: 0 -0.5% -1%;
+}
+/* a elements in #footer */
+#footer a{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    padding-right: 1em;
+    color: #ebebeb;
+}
+/* p elements in #footer */
+#footer p{
+    padding-left: 1em;
+}
+
+/* img whose id=icon */
+img.icon{
+    width: 3em;
+    height: auto;
+}
+
+/* a whose id=icon_link */
+a.icon_link{
+    position: relative;
+    bottom: 1.25em;
+}
